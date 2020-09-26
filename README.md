@@ -2,4 +2,4 @@
 A Conflict Conjugal Consensus Algorithm on Chainlink 
 
 # Components 
-* Conflict Conjoined Consensus Oracle Organisations
+Conflict Conjoined Consensus Oracle Organisations
