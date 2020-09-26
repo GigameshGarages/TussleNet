@@ -33,11 +33,11 @@ pragma solidity >=0.7.0 <0.8.0;
 	}
 	
 	function updateTussleData(
-	uint256 _index,
+	uint256 _index, 
 	string memory _ccIsoAlpha2,
 	string memory _ccIsoAlpha3,
 	uint256 _exchangeRate,
-	uint256 _ppp,
+	uint256 _ppp
 	)
 	public onlySyncer
 	{
