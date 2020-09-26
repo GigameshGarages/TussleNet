@@ -1,5 +1,5 @@
 # Overview
-A Conflict Condensed Consensus Algorithm Conserved on Chainlink 
+A Conflict Condensed Consensus Algorithm Conserved on Chainlink Initiators and Adaptors
 
 # Theory
 Tussle is a consensus algorithm for conflict condensed consensus situations.
