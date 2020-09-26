@@ -128,6 +128,6 @@ pragma solidity ^0.6.0;
 	uint256 timeStamp,
 	uint80 answeredInRound
 	) = tussleFeed.latestRoundData();
-	return uint256(price);
+	return uint256(tussleCount);
 	}
 	}
