@@ -1,2 +1,5 @@
-# TussleNet
-A Conflict Conjugal Consensus Algorithm on Chainlink Powered by Decentralised Dynamic Oracle Organisations 
+# Overview
+A Conflict Conjugal Consensus Algorithm on Chainlink 
+
+# Components 
+* Conflict Conjoined Consensus Oracle Organisations
