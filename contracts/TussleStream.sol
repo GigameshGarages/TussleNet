@@ -21,7 +21,7 @@ pragma solidity ^0.6.6;
 	_;
 	}
 	
-	constructor(address _syncerAddress) {
+	constructor(address _syncerAddress) public {
 	owner = msg.sender;
 	syncer = _syncerAddress;
 	}
@@ -33,7 +33,7 @@ pragma solidity ^0.6.6;
 	}
 	
 	function updateTussleData(
-	uint256 _index, 
+	uint256 constant _index, 
 	string memory _ccIsoAlpha2,
 	string memory _ccIsoAlpha3,
 	uint256 _exchangeRate,
