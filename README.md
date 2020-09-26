@@ -21,6 +21,14 @@ Tussle between Tyrants in Society
 * NPM
 * Truffle
 
+## Initialization
+
+* npm install truffle -g
+* truffle unbox smartcontractkit/box
+* yarn install
+* npm test
+* yar test
+
 ## Installation
 * Package installation should have occurred for you during the Truffle Box setup. 
 * However, if you add dependencies, you'll need to add them to the project by running:
