@@ -1,5 +1,9 @@
 # Overview
-A Conflict Conjugal Consensus Algorithm on Chainlink 
+A Conflict Condensed Consensus Algorithm Conserved on Chainlink 
 
-# Components 
-Conflict Conjoined Consensus Oracle Organisations
+# Lifecycle
+Conflict Condensation phase
+Conflict Resolution phase
+Conflict Annotation phase
+Conflict Conservation phase
+Conflict conjugation phase
