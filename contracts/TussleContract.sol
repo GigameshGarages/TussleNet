@@ -4,12 +4,12 @@ import "@chainlink/contracts/src/v0.6/ChainlinkClient.sol";
 import "@openzeppelin/contracts/access/Ownable.sol";
 
 /**
- * @title MyContract is an example contract which requests data from
+ * @title TussleContract is an example contract which requests data from
  * the Chainlink network
  * @dev This contract is designed to work on multiple networks, including
  * local test networks
  */
-contract MyContract is ChainlinkClient, Ownable {
+contract TussleContract is ChainlinkClient, Ownable {
   uint256 public data;
 
   /**
