@@ -16,8 +16,8 @@ const customError = (data) => {
 // with a Boolean value indicating whether or not they
 // should be required.
 const customParams = {
-  latitude: ['lat', 'latitude'],
-  longitude: ['lng', 'longitude'],
+  frequency: ['freq', 'frequency'],
+  relevance: ['repu', 'reputation'],
   endpoint: false
 }
 
@@ -28,8 +28,8 @@ const createRequest = (input, callback) => {
   const endpoint = validator.validated.data.endpoint || 'point'
   const url = `https://api.stormglass.io/v2/tide/sea-level/${endpoint}`
 
-  const lat = validator.validated.data.latitude
-  const lng = validator.validated.data.longitude
+  const freq = validator.validated.data.frequency
+  const repu = validator.validated.data.reputation
 
   const apiKey = process.env.API_KEY;
   const today = new Date()
@@ -39,8 +39,8 @@ const createRequest = (input, callback) => {
   const yesterdayString = yesterday.toISOString().split('T')[0];
 
   const params = {
-    lat,
-    lng,
+    freq,
+    repu,
     start: yesterdayString,
     end : todayString
   }
