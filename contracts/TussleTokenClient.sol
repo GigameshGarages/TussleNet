@@ -5,6 +5,11 @@ pragma solidity ^0.6.6;
 import "@chainlink/contracts/src/v0.6/ChainlinkClient.sol";
 import "@openzeppelin/contracts/access/Ownable.sol";
 
+import "./TussleToken.sol"
+import "./TussleConsensus.sol"
+import "./TussleRandom.sol"
+import "./TussleDAO.sol"
+
 /**
  * @title TussleContract is an example contract which requests data from
  * the Chainlink network
