@@ -205,8 +205,7 @@ contract TussleDAO {
             c.settled = true;
             uint blockNumber;
             bytes32 randomNumber;
-            Beacon beacon=Beacon(BeaconContractAddress);
-            (blockNumber,randomNumber)=beacon.getLatestRandomness();
+            (blockNumber,randomNumber)=TussleRandom.getRandomNumber();
             return c.random + uint256(randomNumber);
         }
     }
