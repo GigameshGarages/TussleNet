@@ -8,9 +8,6 @@ const customError = (data) => {
   return false
 }
 
-
-//Stormglass endpoint: https://api.stormglass.io/v2/tide/sea-level/point?lat={latitude}&lng={longitude}&start={start}&end={end} 
-
 // Define custom parameters to be used by the adapter.
 // Extra parameters can be stated in the extra object,
 // with a Boolean value indicating whether or not they
@@ -18,7 +15,7 @@ const customError = (data) => {
 const customParams = {
   frequency: ['freq', 'frequency'],
   relevance: ['repu', 'reputation'],
-  endpoint: false
+  endpoint: true
 }
 
 const createRequest = (input, callback) => {
@@ -26,7 +23,7 @@ const createRequest = (input, callback) => {
   const validator = new Validator(callback, input, customParams)
   const jobRunID = validator.validated.id
   const endpoint = validator.validated.data.endpoint || 'point'
-  const url = `https://api.stormglass.io/v2/tide/sea-level/${endpoint}`
+  const url = `https://www.bitstamp.net/api/v2/ticker/btcusd/${endpoint}`
 
   const freq = validator.validated.data.frequency
   const repu = validator.validated.data.reputation
