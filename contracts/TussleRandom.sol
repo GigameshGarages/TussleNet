@@ -6,7 +6,6 @@ contract RandomNumberConsumer is VRFConsumerBase {
     
     bytes32 internal keyHash;
     uint256 internal fee;
-    
     uint256 public randomResult;
     
     /**
