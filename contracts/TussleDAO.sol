@@ -36,7 +36,9 @@ contract TussleDAO {
 
     uint256 public numCampaigns;
     Campaign[] public campaigns;
+    
     address public founder;
+    address public TussleRandomContractAddress=0xdD3782915140c8f3b190B5D67eAc6dc5760C46E9;
 
     modifier blankAddress(address n) {if (n != address(0)) revert(); _;}
 
@@ -204,7 +206,9 @@ contract TussleDAO {
         if (c.revealsNum == c.commitNum ) {
             c.settled = true;
             bytes32 randomNumber;
-            randomNumber = TussleRandom.getRandomNumber();
+            
+            TussleRandom tRandom = TussleRandom(TussleRandomContractAddress);
+            randomNumber = tRandom.getRandomNumber();
             return c.random + uint256(randomNumber);
         }
     }
