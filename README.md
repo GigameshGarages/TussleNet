@@ -1,5 +1,9 @@
 # Overview
-A Conflict Condensed Consensus Algorithm Conserved on Chainlink Initiators and Adaptors
+Designed, Developed and Deployed on Kovan TestNet for the Chainlink 2020 Hackathon
+A Conflict Curation Consensus Algorithm Conserved on Chainlink Initiators and Adaptors
+
+# Summary
+Deployment of a Chainlink Client in the Structure of a Chainlink VRF Powered RANDAO with POA Consensus
 
 # Theory
 Tussle is a consensus algorithm for conflict condensed consensus situations.
