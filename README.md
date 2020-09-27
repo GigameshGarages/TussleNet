@@ -57,3 +57,9 @@ Tussle between Tyrants in Society
 * Set your environment variables $RPC_URL and $MNEMONIC before running:
 
 * npm run migrate:live
+
+## Roadmap
+* Transition to Proof of Stake
+* Transition to Automated Market Makers
+* Transition to Proof of Reputation
+* Develpment of Oracle Contract Witnesses 
