@@ -15,7 +15,7 @@
       "type": "function"
     }
   ],
-  "metadata": "{\"compiler\":{\"version\":\"0.6.6+commit.6c089d02\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"getAddress\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"@chainlink/contracts/src/v0.6/interfaces/PointerInterface.sol\":\"PointerInterface\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"@chainlink/contracts/src/v0.6/interfaces/PointerInterface.sol\":{\"keccak256\":\"0x6458d82762d4f13c020a13efdbd9bf14500e147df707184a693aea91449c2f4f\",\"urls\":[\"bzz-raw://735950f3a544fc6ef2db92405597169bfb5fdb9df83623c0d99fd3d85de8690d\",\"dweb:/ipfs/QmZHxb5Qr7Kw9DHAg4VwEADue9ffNyyhbiyEZ15A5mANUN\"]}},\"version\":1}",
+  "metadata": "{\"compiler\":{\"version\":\"0.6.12+commit.27d51765\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"getAddress\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"@chainlink/contracts/src/v0.6/interfaces/PointerInterface.sol\":\"PointerInterface\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"@chainlink/contracts/src/v0.6/interfaces/PointerInterface.sol\":{\"keccak256\":\"0x6458d82762d4f13c020a13efdbd9bf14500e147df707184a693aea91449c2f4f\",\"urls\":[\"bzz-raw://735950f3a544fc6ef2db92405597169bfb5fdb9df83623c0d99fd3d85de8690d\",\"dweb:/ipfs/QmZHxb5Qr7Kw9DHAg4VwEADue9ffNyyhbiyEZ15A5mANUN\"]}},\"version\":1}",
   "bytecode": "0x",
   "deployedBytecode": "0x",
   "immutableReferences": {},
@@ -27,14 +27,15 @@
     "absolutePath": "@chainlink/contracts/src/v0.6/interfaces/PointerInterface.sol",
     "exportedSymbols": {
       "PointerInterface": [
-        1171
+        3051
       ]
     },
-    "id": 1172,
+    "id": 3052,
+    "license": null,
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 1165,
+        "id": 3045,
         "literals": [
           "solidity",
           "^",
@@ -42,7 +43,7 @@
           ".0"
         ],
         "nodeType": "PragmaDirective",
-        "src": "0:23:7"
+        "src": "0:23:13"
       },
       {
         "abstract": false,
@@ -51,9 +52,9 @@
         "contractKind": "interface",
         "documentation": null,
         "fullyImplemented": false,
-        "id": 1171,
+        "id": 3051,
         "linearizedBaseContracts": [
-          1171
+          3051
         ],
         "name": "PointerInterface",
         "nodeType": "ContractDefinition",
@@ -62,7 +63,7 @@
             "body": null,
             "documentation": null,
             "functionSelector": "38cc4831",
-            "id": 1170,
+            "id": 3050,
             "implemented": false,
             "kind": "function",
             "modifiers": [],
@@ -70,24 +71,24 @@
             "nodeType": "FunctionDefinition",
             "overrides": null,
             "parameters": {
-              "id": 1166,
+              "id": 3046,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "75:2:7"
+              "src": "75:2:13"
             },
             "returnParameters": {
-              "id": 1169,
+              "id": 3049,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 1168,
+                  "id": 3048,
                   "mutability": "mutable",
                   "name": "",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-                  "scope": 1170,
-                  "src": "101:7:7",
+                  "scope": 3050,
+                  "src": "101:7:13",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -95,10 +96,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 1167,
+                    "id": 3047,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "101:7:7",
+                    "src": "101:7:13",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -109,33 +110,34 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "100:9:7"
+              "src": "100:9:13"
             },
-            "scope": 1171,
-            "src": "56:54:7",
+            "scope": 3051,
+            "src": "56:54:13",
             "stateMutability": "view",
             "virtual": false,
             "visibility": "external"
           }
         ],
-        "scope": 1172,
-        "src": "25:87:7"
+        "scope": 3052,
+        "src": "25:87:13"
       }
     ],
-    "src": "0:113:7"
+    "src": "0:113:13"
   },
   "legacyAST": {
     "absolutePath": "@chainlink/contracts/src/v0.6/interfaces/PointerInterface.sol",
     "exportedSymbols": {
       "PointerInterface": [
-        1171
+        3051
       ]
     },
-    "id": 1172,
+    "id": 3052,
+    "license": null,
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 1165,
+        "id": 3045,
         "literals": [
           "solidity",
           "^",
@@ -143,7 +145,7 @@
           ".0"
         ],
         "nodeType": "PragmaDirective",
-        "src": "0:23:7"
+        "src": "0:23:13"
       },
       {
         "abstract": false,
@@ -152,9 +154,9 @@
         "contractKind": "interface",
         "documentation": null,
         "fullyImplemented": false,
-        "id": 1171,
+        "id": 3051,
         "linearizedBaseContracts": [
-          1171
+          3051
         ],
         "name": "PointerInterface",
         "nodeType": "ContractDefinition",
@@ -163,7 +165,7 @@
             "body": null,
             "documentation": null,
             "functionSelector": "38cc4831",
-            "id": 1170,
+            "id": 3050,
             "implemented": false,
             "kind": "function",
             "modifiers": [],
@@ -171,24 +173,24 @@
             "nodeType": "FunctionDefinition",
             "overrides": null,
             "parameters": {
-              "id": 1166,
+              "id": 3046,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "75:2:7"
+              "src": "75:2:13"
             },
             "returnParameters": {
-              "id": 1169,
+              "id": 3049,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 1168,
+                  "id": 3048,
                   "mutability": "mutable",
                   "name": "",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-                  "scope": 1170,
-                  "src": "101:7:7",
+                  "scope": 3050,
+                  "src": "101:7:13",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -196,10 +198,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 1167,
+                    "id": 3047,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "101:7:7",
+                    "src": "101:7:13",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -210,32 +212,36 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "100:9:7"
+              "src": "100:9:13"
             },
-            "scope": 1171,
-            "src": "56:54:7",
+            "scope": 3051,
+            "src": "56:54:13",
             "stateMutability": "view",
             "virtual": false,
             "visibility": "external"
           }
         ],
-        "scope": 1172,
-        "src": "25:87:7"
+        "scope": 3052,
+        "src": "25:87:13"
       }
     ],
-    "src": "0:113:7"
+    "src": "0:113:13"
   },
   "compiler": {
     "name": "solc",
-    "version": "0.6.6+commit.6c089d02.Emscripten.clang"
+    "version": "0.6.12+commit.27d51765.Emscripten.clang"
   },
   "networks": {},
   "schemaVersion": "3.2.5",
-  "updatedAt": "2020-09-26T14:44:00.019Z",
+  "updatedAt": "2020-09-27T14:56:04.359Z",
   "devdoc": {
-    "methods": {}
+    "kind": "dev",
+    "methods": {},
+    "version": 1
   },
   "userdoc": {
-    "methods": {}
+    "kind": "user",
+    "methods": {},
+    "version": 1
   }
 }
