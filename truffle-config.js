@@ -7,25 +7,11 @@ const NonceTrackerSubprovider = require("web3-provider-engine/subproviders/nonce
 
 module.exports = {
   networks: {
-    
-    cldev: {
-      host: '127.0.0.1',
-      port: 8545,
-      network_id: '*',
-    },
-    
-    ganache: {
-      host: '127.0.0.1',
-      port: 8545,
-      network_id: '1601194398809',
-    },
-    
     development: {
       host: "localhost",
       port: 7545,
       network_id: "5777"
     },
-    
     kovan: {
       provider: function() {
         var wallet = new HDWalletProvider(mnemonic, kovanUrl);
