@@ -206,7 +206,7 @@ contract TussleDAO {
         if (c.revealsNum == c.commitNum ) {
             c.settled = true;
             bytes32 randomNumber;
-            uint256 TussleSeed = uint256(c);
+            uint256 TussleSeed = uint256(block.number);
             TussleRandom tRandom = TussleRandom(TussleRandomContractAddress);
             randomNumber = tRandom.getRandomNumber(TussleSeed);
             return c.random + uint256(randomNumber);
