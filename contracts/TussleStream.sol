@@ -33,7 +33,7 @@ pragma solidity ^0.6.6;
 	}
 	
 	function updateTussleData(
-	uint256 memory _index, 
+	uint256 constant _index, 
 	string memory _ccIsoAlpha2,
 	string memory _ccIsoAlpha3,
 	uint256 _exchangeRate,
