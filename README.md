@@ -20,6 +20,7 @@ Tussle between Tyrants in Society
 * NodeJS
 * NPM
 * Truffle
+* Yarn
 
 ## Initialization
 
