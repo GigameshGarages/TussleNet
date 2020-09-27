@@ -203,9 +203,8 @@ contract TussleDAO {
     function returnRandom(Campaign storage c) internal bountyPhase(c.bnum) returns (uint256) {
         if (c.revealsNum == c.commitNum ) {
             c.settled = true;
-            uint blockNumber;
             bytes32 randomNumber;
-            (blockNumber,randomNumber)=TussleRandom.getRandomNumber();
+            randomNumber = TussleRandom.getRandomNumber();
             return c.random + uint256(randomNumber);
         }
     }
