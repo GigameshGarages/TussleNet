@@ -36,17 +36,6 @@ module.exports = {
       },
       network_id: 42
     }
-    
-    live: {
-      provider: () => {
-        return new HDWalletProvider(process.env.MNEMONIC, process.env.RPC_URL)
-      },
-      network_id: '*',
-      // ~~Necessary due to https://github.com/trufflesuite/truffle/issues/1971~~
-      // Necessary due to https://github.com/trufflesuite/truffle/issues/3008
-      skipDryRun: true,
-    },
-    
   },
   mocha: {
   },
