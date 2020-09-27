@@ -16,14 +16,14 @@ import "./TussleDAO.sol"
  * @dev This contract is designed to work on multiple networks, including
  * local test networks
  */
-contract TussleTokenClient is ChainlinkClient, Ownable {
+contract TussleTokenClient is ChainlinkClient, Ownable, TussleRandom, TussleDAO, TussleConsensus {
   uint256 public data;
 
   /**
    * @notice Deploy the contract with a specified address for the LINK
    * and Oracle contract addresses
    * @dev Sets the storage for the specified addresses
-   * @param _link The address of the LINK token contract
+   * @param _link The address of the LINK contract
    */
   constructor(address _link) public {
     if (_link == address(0)) {
