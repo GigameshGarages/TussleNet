@@ -23,9 +23,11 @@ Tussle between Tyrants in Society
 * Conflict conjugation phase
 
 ## Requirements
-* NodeJS
+* Solidity 0.6.6
+* Truffle v5.1.46
+* NodeJS v14.11
 * NPM
-* Truffle
+* NVM
 * Yarn
 
 ## Initialization
