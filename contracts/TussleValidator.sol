@@ -3,7 +3,7 @@
 pragma solidity ^0.6.6;
 
 
-contract TussleConsensus {
+contract TussleValidator {
     
     event InitiateChange(bytes32 indexed parentHash, address[] newSet);
     event ChangeFinalized(address[] newSet);
