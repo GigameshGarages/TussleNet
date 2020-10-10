@@ -1,5 +1,9 @@
 # Progress
-* Designed, Developed and Deployed on Kovan TestNet
+* Integration of Chainlink VRF with RANDAO
+* Implementation of Chainlink Adaptors and Initiators
+* Implementation of Chainlink VRF
+* Integration of Validator Contracts
+* Integration of Proof of Stake Contracts
 
 # Summary
 * Chainlink Initiators and Adaptors integrated with Chainlink VRF Powered RANDAO 
