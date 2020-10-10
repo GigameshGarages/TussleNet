@@ -1,6 +1,7 @@
 # Progress
 * Integration of Chainlink VRF with RANDAO
-* Implementation of Chainlink Adaptors and Initiators
+* Implementation of Chainlink External Adaptor 
+* Implementatio of Linkpool Bridge Adaptor
 * Implementation of Chainlink VRF
 * Integration of Validator Contracts
 * Integration of Proof of Stake Contracts
