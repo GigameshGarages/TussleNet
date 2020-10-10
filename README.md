@@ -1,26 +1,9 @@
 # Progress
-* Designed, Developed and Deployed on Kovan TestNet for the Chainlink 2020 Hackathon
+* Designed, Developed and Deployed on Kovan TestNet
 
-# Introduction
-* A Conflict Curation Consensus Algorithm Conserved on Chainlink Initiators and Adaptors
-* Deployment of a Chainlink Client in the Structure of a Chainlink VRF Powered RANDAO with POA Consensus
-
-# Theory
-* Tussle is a consensus algorithm for conflict condensed consensus situations.
-* Tussle is currently written based on Proof of Authority Consensus Algorithm
-* Tussle is transitining to Proof of Reputation along with Ethereum Roadmap
-
-# Examples
-Tussle between Trading Agents
-Tussle between Tracking Devices
-Tussle between Tyrants in Society
-
-# Lifecycle
-* Conflict Condensation phase
-* Conflict Resolution phase
-* Conflict Annotation phase
-* Conflict Conservation phase
-* Conflict conjugation phase
+# Summary
+* Chainlink Initiators and Adaptors integrated with Chainlink VRF Powered RANDAO 
+* Integration of Validators and Proof of Stake Consensus with Chainlink Oracle Contracts
 
 ## Requirements
 * Solidity 0.6.6
